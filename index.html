@@ -15,7 +15,7 @@
             <i class="fas fa-play"></i> Nhạc
         </button>
         <audio id="backgroundMusic" loop>
-            <source src="[ĐIỀN LINK NHẠC MP3 HOSTING CÔNG CỘNG CỦA BẠN]" type="audio/mpeg">
+            <source src="[https://cdn.discordapp.com/attachments/1309181683630604390/1442182165566591178/4a445caf6dfd374a.mp3?ex=6925290e&is=6923d78e&hm=cc4dccaec34da3d12ce5dea07601501866f8cbcf05ae5f36bf7493c3fa1c2571&]" type="audio/mpeg">
         </audio>
     </div>
 
@@ -162,7 +162,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>Phản hồi lỗi qua Email: mrbitt.mine@gmail.com</p>
+            <p>Email làm việc: mrbitt.mine@gmail.com</p>
         </div>
     </footer>
     
@@ -174,7 +174,6 @@
             const icon = musicToggle.querySelector('i');
             
             if (music.paused) {
-                // Tải và phát nhạc (Cần tương tác người dùng để vượt qua chặn Autoplay)
                 music.load();
                 music.play().then(() => {
                     icon.className = 'fas fa-pause';
@@ -193,4 +192,5 @@
         });
     </script>
 </body>
+
 </html>
